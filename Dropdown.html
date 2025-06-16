@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js" integrity="sha512-k2wo/BkbloaRU7gc/RkCekHr4IOVe10kYxJ/Q8dRPl7u3YshAQmg3WfZtIcseEk+nGBdK03fHBeLgXTxRmWCLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <details>
+        <summary>QR_Code&BarCode</summary>
+        <img src=" https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.youtube.com/" alt="Youtube"><br>
+        <img src=" https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://openai.com/index/chatgpt/" alt="chatgpt"><br>
+        <canvas id="demo1"></canvas><br>
+        <canvas id="demo2"></canvas>
+    </details>
+    <details>
+        <summary>Google Map&Youtube Video</summary>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29877.57943856405!2d77.32633659307811!3d10.008074616239414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b070d36c2965c59%3A0xc13421eb588f7141!2sBodinayakanur%2C%20Tamil%20Nadu!5e1!3m2!1sen!2sin!4v1749817660360!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JtaOmwnR6AM?si=x1tKhZgacpMESKPD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </details>
+    <details>
+        <summary>MultiMedia</summary>
+        <img src="/Assets/modern-car-driving-city.jpg" alt="" width="300px" height="200px"><br>
+        <video src="https://cdn.pixabay.com/video/2025/06/03/283533_tiny.mp4" controls></video><br>
+        <audio src="/Assets/275593_tiny.mp4" controls></audio>
+    </details>
+    <a href="./List.html" target="_blank">
+        <input type="button" value="LIST FILE">
+    </a>
+      <script>
+        JsBarcode("#demo1","Qspiders");
+        JsBarcode("#demo2","Jspiders");
+    </script>
+</body>
+</html>

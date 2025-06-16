@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./Form_submission.html" target="_blank">
+        <fieldset>
+            <legend>FORM</legend>
+            <label>NAME:</label>
+            <input type="text" name="Name" minlength="5" maxlength="10"><br><br>
+            <label>PASSWORD:</label>
+            <input type="password" name="password" minlength="5" maxlength="10" required><br><br>
+            <label>EMAIL:</label>
+            <input type="email" required><br><br>
+            <label>PHONE-NO</label>
+            <input type="tel" pattern="[0-9]{10}"><br><br>
+            <label>GENDER</label>
+            <input type="radio" name="a">MALE
+            <input type="radio" name="a">FEMALE <br><br>
+            <label>SELECT LANGUAGE</label>
+            <input type="checkbox">ENGLISH
+            <input type="checkbox">HINDI
+            <input type="checkbox">TAMIL
+            <input type="checkbox">TELUGU
+            <input type="checkbox">MALAYALAM<br><br>
+            <label>COPY-URL:</label>
+            <input type="url"><br><br>
+            <label>CHOOSE FILE:</label>
+            <input type="file"><br><br>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </fieldset>
+    </form>
+</body>
+</html>
